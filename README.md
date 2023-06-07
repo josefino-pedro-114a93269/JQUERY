@@ -1,4 +1,4 @@
-# JQUERY
+# jQuery
 "write less, do more"
 - Biblioteca de JavaScript
 - Carregamento rápido
