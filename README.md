@@ -2,11 +2,27 @@
 "write less, do more"
 - Biblioteca de JavaScript
 - Carregamento rápido
-- Converter para JS (ECMAScript) padrão
+- Converte para JS (ECMAScript) padrão
 - Crossbrowser: funciona em diversos navegadores
 - Escrever um código para todos os navegadores
-- Captura rápida e transmissão de dados
-- Manipular o DOM
-- Facilitar uma consulta (query) a elementos
+- Rápida captura e transmissão de dados
+- Manipula o DOM
+- Facilita a consulta (query) a elementos
 - Extensível com plugins
 - Instalação: https://jquery.com/download/
+
+## Seletores
+### Simples
+```
+    $('h4') // tag
+    $('.featured-item') // class
+    $('#featured') // id
+```
+
+### Compostos
+```
+ $('h4, h6')
+
+    $('div h4')
+
+    ```
